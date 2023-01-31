@@ -11,6 +11,7 @@ def naive(a,b):
 # print(naive(12,15))
 
 #efficient
+# formula ==> axb = gcd(a,b) x lcm(a,b) ==> lcm(a,b) = axb / gcd(a,b)
 
 def lcm(a, b):
   return (a*b)/gcd(a,b)
