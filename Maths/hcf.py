@@ -7,7 +7,7 @@ def naive(a, b):
         factor -= 1
 
 
-print(naive(12, 15))
+# print(naive(12, 15))
 
 
 # euclidean solution
@@ -20,7 +20,7 @@ def euclidean(a, b):
         return euclidean(a, b-a)
 
 
-print(euclidean(12, 15))
+# print(euclidean(12, 15))
 
 
 # efficient euclidean
@@ -28,7 +28,7 @@ def gcd(a, b):
     if b == 0:
         return a
     else:
-        return gcd(b, b % a)
+        return gcd(b, a % b)
 
 
 print(gcd(12, 15))
