@@ -1,7 +1,7 @@
 # naive
 def isPrime(num):
-    for item in range(2,num):
-        if num%item ==0:
+    for item in range(2, num):
+        if num % item == 0:
             return False
     return True
 
@@ -16,14 +16,12 @@ def isPrime2(num):
     return True
 
 # more efficient
+
+
 def isPrime3(num):
-    if (num==1 | num % 2 == 0 | num % 3 == 0):
+    if (num == 1 | num % 2 == 0 | num % 3 == 0):
         return False
-    i = 5
-    while i*i <= num:
-        if num % i == 0:
+    for item in range(5, int(num**0.5)+1, 6):
+        if num % item == 0:
             return False
-        i = i+6
     return True
-
-
