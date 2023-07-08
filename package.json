@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/prashant828/dsa/issues"
   },
-  "homepage": "https://github.com/prashant828/dsa#readme"
+  "homepage": "https://github.com/prashant828/dsa#readme",
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
