@@ -7,3 +7,4 @@ const fun = (n) => {
 };
 
 fun(3);
+//test
