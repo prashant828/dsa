@@ -5,7 +5,7 @@ const fun = (str, fi = 0) => {
   }
   for (let j = fi; j <= str.length - 1; j++) {
     let swaped = swap(str, fi, j);
-    fun(swaped, fi + 1, j);
+    fun(swaped, fi + 1);
   }
 };
 
